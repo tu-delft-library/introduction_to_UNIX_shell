@@ -11,7 +11,7 @@
 - Practice teaching the material on your own
 - [Optional] Depending on how you will visuzalise this cheat sheet (e.g. in a tablet), you might want to expoert it as a PDF
 
-#  Introducing the Shell
+#  Introducing the Shell - 10mins
 - 🎦 introduce UNIX shell using [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/Introduction%20to%20UNIX%20shell.pptx?d=waa8b334f650548598f1cf27dc80f2923&csf=1&web=1&e=RbBBDG&nav=eyJzSWQiOjI1NywiY0lkIjozNjkxODA1NTA0fQ) 
 - demo how to open a shell
     - ✅ wait for everyone to open shell
@@ -19,13 +19,13 @@
 - explain username e.g. `nelle@localhost`
 
 # Navigating Files and Directories
-### File systems
+### File systems - 10mins
 - **File browser:** demo the actions that will be covered in directory navigation using the file browser. 
     - This visual explanation should make it easier when moving to the shell.
 - Explain concept of `home`
 - Explain meaning of slash at the end `/`
 
-### Symbolic link to Desktop
+### Symbolic link to Desktop - 10mins
 [TODO] Try symlink in windows machine
 
 - Users with Windows 10 will probably save the data in `OneDrive` Desktop.  
@@ -34,7 +34,7 @@
     - `ln -s "/c/Users/[username]/OneDrive\ -\ Delft\ University\ of\ Technology\Desktop" "Desktop"`
     - **Note how spaces need special handling**
 
-### Type along
+### Type along - 20mins
 - pwd, ls, ls -F, ls --help, man ls, clear,cd, ., ..
 
 ```
@@ -58,18 +58,20 @@ cd shell-lesson-data
 cd ~
 ```
 
-### Challenges `filedir`
+### Challenges `filedir` - 10mins
 
 - go to [TuDelft Vevox](https://tudelft.vevox.com/#/meetings)
 - start the poll and wait for answers
 - discuss the correct answer and enable next question
+
+# Break - 10mins
 
 # Working with Files and Directories
 - Commands: nano, cat, cp, mv, rm, mkdir, rmdir, touch
 - Note: talk about **good names for files and directories**
 - Explain: create files with `touch`
 
-### Type along
+### Type along - 25mins
 
 ```
 pwd
@@ -99,7 +101,7 @@ ls thesis_backup/
 rm -r thesis_backup/ # Remove contents and folder
 ```
 
-### Challenges `create`
+### Challenges `create` - 10mins
 
 - continue with the same vevox
 - start the poll and wait for answers
@@ -108,7 +110,7 @@ rm -r thesis_backup/ # Remove contents and folder
 # Using wildcards to access multiple 
 - Wildcards: *, ?
 
-### Type along
+### Type along - 10mins
 ```
 clear
 cd ..
@@ -122,8 +124,11 @@ ls *.pdf # No such file or directory
 clear
 ```
 
-### Challenges `wildcards`
+### Challenges `wildcards` - 15mins
 
 - continue with the same vevox
 - start the poll and wait for answers
 - discuss the correct answer and enable next question
+
+# Key points -10mins
+- [TODO] Better way than using slides?
