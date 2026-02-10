@@ -1,42 +1,39 @@
-# Before the workshop
-- Set up collaborative document 
-    - [TODO] Decide if hackmd? or google docs?
-- Check the slides
-- Prep de vevox
-    - Ask @catactg for a duplicate of the vevox material
-    - Copy the share link of vevox
-    - Make it a short URL using [edu.nl](edu.nl)
-    - Add edu.nl QR code to slides AND copy the link on whiteboard
-- Pick an icebreaker from the [resources folder](https://tud365.sharepoint.com/:w:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/resources.docx?d=waea671d7fc6a46d5b5c068fc19f41940&csf=1&web=1&e=f2QYgy)
-- Practice teaching the material on your own
-- [Optional] Depending on how you will visuzalise this cheat sheet (e.g. in a tablet), you might want to expoert it as a PDF
+## Land - 15'
+☕ Coffee/tea 🫖
 
-#  Introducing the Shell - 10mins
+## Installation check, housekeeping - 15'
+- ✅ Roll call + 🤝 Code of Conduct
+- 🖥 Did everyone install UNIX Shell? 
+- 🙋Getting help (🆘 red  ✅ green stickers)
+
+## Icebreaker - 5'
+A short icebreaker from [resources document](https://tud365.sharepoint.com/:w:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/resources.docx?d=waea671d7fc6a46d5b5c068fc19f41940&csf=1&web=1&e=f2QYgy)
+
+
+## Introducing the Shell - 10'
 - 🎦 introduce UNIX shell using [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/Introduction%20to%20UNIX%20shell.pptx?d=waa8b334f650548598f1cf27dc80f2923&csf=1&web=1&e=RbBBDG&nav=eyJzSWQiOjI1NywiY0lkIjozNjkxODA1NTA0fQ) 
 - demo how to open a shell
-    - ✅ wait for everyone to open shell
+    - 🆘 red  ✅ green wait for everyone to open shell
 - explain `$` and **text cursor**
 - explain username e.g. `nelle@localhost`
 
-# Navigating Files and Directories
-### File systems - 10mins
+## File systems - 10'
 - **File browser:** demo the actions that will be covered in directory navigation using the file browser. 
     - This visual explanation should make it easier when moving to the shell.
 - Explain concept of `home`
 - Explain meaning of slash at the end `/`
 
-### Symbolic link to Desktop - 10mins
-[TODO] Try symlink in windows machine
+## Symbolic link to Desktop - 10'
+[TODO Try symlink in windows machine]: #
 
 - Users with Windows 10 will probably save the data in `OneDrive` Desktop.  
-    - This path is very complicated, with spaces and such. 
-    - Our first task will be to make a symolic link to make our lives easier.
+    - First make a symolic link to make our lives easier.
     - `ln -s "/c/Users/[username]/OneDrive\ -\ Delft\ University\ of\ Technology\Desktop" "Desktop"`
-    - **Note how spaces need special handling**
+    - Explain how **how spaces need special handling**
 
-### Type along - 20mins
-- pwd, ls, ls -F, ls --help, man ls, clear,cd, ., ..
+## Navigating Files and Directories
 
+### Type along - 20'
 ```
 pwd # (Print working directory)
 ls –help  # (Ask for help about the 'ls' command) (Windows / Git-bash)
@@ -58,28 +55,25 @@ cd shell-lesson-data
 cd ~
 ```
 
-### Challenges `filedir` - 10mins
-
+### Challenges `filedir` - 10'
 - go to [TuDelft Vevox](https://tudelft.vevox.com/#/meetings)
-- start the poll and wait for answers
-- discuss the correct answer and enable next question
+- start poll -> wait for answers -> discuss -> next question
 
-# Break - 10mins
+## Break - 10'
 
-# Working with Files and Directories
-- Commands: nano, cat, cp, mv, rm, mkdir, rmdir, touch
-- Note: talk about **good names for files and directories**
+## Working with Files and Directories
+- Talk about **good names for files and directories**
 - Explain: create files with `touch`
 
-### Type along - 25mins
+### Type along - 25'
 
 ```
 pwd
 cd ~/Desktop/shell-lesson-data/exercise-data/writing
 ls -F
 mkdir thesis
-ls -F thesis # empty directory
-mkdir thesis # directory already exists
+ls -F thesis # Empty directory
+mkdir thesis # Directory already exists
 cd thesis/
 nano draft.txt # Edit the file draft.txt
 touch my_file.txt # Create an empty file my_file.txt
@@ -101,16 +95,14 @@ ls thesis_backup/
 rm -r thesis_backup/ # Remove contents and folder
 ```
 
-### Challenges `create` - 10mins
+### Challenges `create` - 10'
 
 - continue with the same vevox
-- start the poll and wait for answers
-- discuss the correct answer and enable next question
+- start poll -> wait for answers -> discuss -> next question
 
-# Using wildcards to access multiple 
-- Wildcards: *, ?
+## Using wildcards (*,?) to access multiple files
 
-### Type along - 10mins
+### Type along - 10'
 ```
 clear
 cd ..
@@ -124,11 +116,12 @@ ls *.pdf # No such file or directory
 clear
 ```
 
-### Challenges `wildcards` - 15mins
+### Challenges `wildcards` - 15'
 
 - continue with the same vevox
-- start the poll and wait for answers
-- discuss the correct answer and enable next question
+- start poll -> wait for answers -> discuss -> next question
 
-# Key points -10mins
-- [TODO] Better way than using slides?
+## Key points - 10'
+[TODO Better way than using slides?]: #
+
+## Feedback - 5'
