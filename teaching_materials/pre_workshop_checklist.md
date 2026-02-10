@@ -15,5 +15,7 @@
     - [shell-novice/03-create#operations-with-multiple-files-and-directories](https://swcarpentry.github.io/shell-novice/instructor/03-create.html#operations-with-multiple-files-and-directories)
 
 - Export lesson plan cheat sheet as a PDF. Choose your favorite format:
-    - From [spreadsheet](https://tud365.sharepoint.com/:x:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/lesson_plan.xlsx?d=we808cfe275964b25a61e1fa97fc31664&csf=1&web=1&e=KMRjO4)
-    - From markdown (`lesson_plan.md` file in this repo)
+    - From the [spreadsheet](https://tud365.sharepoint.com/:x:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/lesson_plan.xlsx?d=we808cfe275964b25a61e1fa97fc31664&csf=1&web=1&e=KMRjO4) with the lesson structure
+        - You'll also need the `live_coding_log.txt` file in this repo for type along commands
+    - From markdown `lesson_plan.md` file in this repo
+        - Already contains the type along commands 
