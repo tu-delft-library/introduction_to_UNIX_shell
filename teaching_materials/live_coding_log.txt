@@ -18,6 +18,7 @@ ls -a # list all files, including hidden files
 cd ~
 
 # STOP FOR CHALLENGES
+
 pwd
 cd ~/Desktop/shell-lesson-data/exercise-data/writing
 ls -F
@@ -45,6 +46,7 @@ ls thesis_backup/
 rm -r thesis_backup/ # Remove contents and folder
 
 # STOP FOR CHALLENGES
+
 cd ..
 cd alkanes
 ls
@@ -53,3 +55,5 @@ ls p*.pdb
 ls ?ethane.pdb
 ls ???ane.pdb
 ls *.pdf # No such file or directory
+
+# STOP FOR CHALLENGES
