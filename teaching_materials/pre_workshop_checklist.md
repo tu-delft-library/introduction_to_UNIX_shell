@@ -14,4 +14,6 @@
     - [shell-novice/03-create](https://swcarpentry.github.io/shell-novice/instructor/03-create.html)
     - [shell-novice/03-create#operations-with-multiple-files-and-directories](https://swcarpentry.github.io/shell-novice/instructor/03-create.html#operations-with-multiple-files-and-directories)
 
-- [Optional] export this cheat sheet as a PDF
+- Export lesson plan cheat sheet as a PDF. Choose your favorite format:
+    - From [spreadsheet](https://tud365.sharepoint.com/:x:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/lesson_plan.xlsx?d=we808cfe275964b25a61e1fa97fc31664&csf=1&web=1&e=KMRjO4)
+    - From markdown (`cheat_sheet_for_trainer.md` file in this repo)
