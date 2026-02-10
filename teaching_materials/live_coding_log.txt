@@ -1,0 +1,55 @@
+pwd # (Print working directory)
+ls –help  # (Ask for help about the 'ls' command) (Windows / Git-bash)
+man ls  # Show the UNIX manual page for the 'ls' command (Mac / Linux)
+clear # Clears the terminal screen
+ls -l -h  # Long-form listing of the files in the current directory
+ls -F # for MAC 
+ls -F . # . means the current directory
+ls -F Desktop
+ls -F Desktop/shell-lesson-data
+cd Desktop # Change directory to the one called "Desktop"
+cd shell-lesson-data
+cd exercise-data
+pwd
+cd shell-lesson-data # Error: no such directory
+cd .. # .. means the directory above the current one
+pwd
+ls -a # list all files, including hidden files
+cd ~
+
+# STOP FOR CHALLENGES
+pwd
+cd ~/Desktop/shell-lesson-data/exercise-data/writing
+ls -F
+mkdir thesis
+ls -F thesis # Empty directory
+mkdir thesis # Directory already exists
+cd thesis/
+nano draft.txt # Edit the file draft.txt
+touch my_file.txt # Create an empty file my_file.txt
+ls
+cat my_file.txt # Show the contents of a file
+rm my_file.txt
+ls
+mv thesis/draft.txt thesis/quotes.txt # Move / rename a file
+ls thesis/
+mv thesis/quotes.txt .
+ls
+ls thesis/
+cp quotes.txt thesis/quotations.txt # Copy file to a different location / name
+ls thesis/
+ls
+cat thesis/quotations.txt
+cp -r thesis/ thesis_backup # Copy recursively – will copy folder structures
+ls thesis_backup/
+rm -r thesis_backup/ # Remove contents and folder
+
+# STOP FOR CHALLENGES
+cd ..
+cd alkanes
+ls
+ls *.pdb
+ls p*.pdb
+ls ?ethane.pdb
+ls ???ane.pdb
+ls *.pdf # No such file or directory
