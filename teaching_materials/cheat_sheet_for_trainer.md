@@ -41,17 +41,17 @@ man ls  # Show the UNIX manual page for the 'ls' command (Mac / Linux)
 clear # Clears the terminal screen
 ls -l -h  # Long-form listing of the files in the current directory
 ls -F # for MAC 
-pwd # Print working directory
+ls -F . # . means the current directory
+ls -F Desktop
+ls -F Desktop/shell-lesson-data
 cd Desktop # Change directory to the one called "Desktop"
-clear
-ls
-ls . # . means the current directory
-ls shell-lesson-data
 cd shell-lesson-data
-ls
-cd ..  # .. means the directory above the current one
+cd exercise-data
+pwd
+cd shell-lesson-data # Error: no such directory
+cd .. # .. means the directory above the current one
+pwd
 ls -a # list all files, including hidden files
-cd shell-lesson-data
 cd ~
 ```
 
