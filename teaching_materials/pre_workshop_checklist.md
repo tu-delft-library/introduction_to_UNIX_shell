@@ -1,12 +1,19 @@
 # Pre-workshop checklist
 [TODO Decide if hackmd? or google docs?]: #
-- Set up collaborative document 
-- Check the [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/Introduction%20to%20UNIX%20shell.pptx?d=waa8b334f650548598f1cf27dc80f2923&csf=1&web=1&e=RbBBDG&nav=eyJzSWQiOjI1NywiY0lkIjozNjkxODA1NTA0fQ) 
+- Optional: Set up collaborative document 
 - Prepare de vevox
     - Ask @catactg for a duplicate of the vevox material
     - Copy the share link of vevox
     - Make it a short URL using [edu.nl](edu.nl)
-    - Add edu.nl QR code to slides AND copy the link on whiteboard
+    - Save edu.nl QR code to add to slides
+    - Copy the link on whiteboard
+- Update the [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/Introduction%20to%20UNIX%20shell.pptx?d=waa8b334f650548598f1cf27dc80f2923&csf=1&web=1&e=RbBBDG&nav=eyJzSWQiOjI1NywiY0lkIjozNjkxODA1NTA0fQ)
+    - Names of trainers/helpers
+    - Schedule
+    - Add Vevox edu.nl QR code to slides
+    - Optional: collaborative document **edu.nl** link 
+
+
 - Pick an icebreaker from the [resources document](https://tud365.sharepoint.com/:w:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/resources.docx?d=waea671d7fc6a46d5b5c068fc19f41940&csf=1&web=1&e=f2QYgy)
 - Practice teaching the material on your own
     - [shell-novice/01-intro](https://swcarpentry.github.io/shell-novice/01-intro.html)
