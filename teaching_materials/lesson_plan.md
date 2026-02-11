@@ -1,4 +1,4 @@
-## Land - 15'
+## Land - 10'
 ☕ Coffee/tea 🫖
 
 ## Installation check, housekeeping - 15'
@@ -121,7 +121,7 @@ clear
 - continue with the same vevox
 - start poll -> wait for answers -> discuss -> next question
 
-## Key points - 10'
+## Key points - 15'
 [TODO Better way than using slides?]: #
 
 ## Feedback - 5'
