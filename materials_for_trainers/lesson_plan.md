@@ -13,7 +13,7 @@ A short icebreaker from [resources document](https://tud365.sharepoint.com/:w:/r
 ## Introducing the Shell - 10'
 - 🎦 introduce UNIX shell using [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/Introduction%20to%20UNIX%20shell.pptx?d=waa8b334f650548598f1cf27dc80f2923&csf=1&web=1&e=RbBBDG&nav=eyJzSWQiOjI1NywiY0lkIjozNjkxODA1NTA0fQ) 
 - demo how to open a shell
-    - 🆘 red  ✅ green wait for everyone to open shell
+    - 🆘 pink/red  ✅ green wait for everyone to open shell
 - explain `$` and **text cursor**
 - explain username e.g. `nelle@localhost`
 
@@ -24,7 +24,6 @@ A short icebreaker from [resources document](https://tud365.sharepoint.com/:w:/r
 - Explain meaning of slash at the end `/`
 
 ## Symbolic link to Desktop - 10'
-[TODO Try symlink in windows machine]: #
 
 - Users with Windows 10 will probably save the data in `OneDrive` Desktop.  
     - First make a symolic link to make our lives easier.
@@ -122,6 +121,8 @@ clear
 - start poll -> wait for answers -> discuss -> next question
 
 ## Key points - 15'
-[TODO Better way than using slides?]: #
+* use the cheat sheet to make sure you revise all the commands
+
 
 ## Feedback - 5'
+* ask participants to fill in the feeback survey
