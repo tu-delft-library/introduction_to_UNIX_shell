@@ -7,7 +7,8 @@
 - Set up the feedback survey
     - TODO more specific instructions on this step
 - Set up collaborative document:
-    - Duplicate the document form the previous workshop
+    - Ask @catactg for a duplicate of the document from the previous workshop
+        - Word document in OneDrive that is shared to everyone in TUDelft
     - Adapt the links:
         - Vevox
         - Feedback survey
@@ -16,7 +17,7 @@
 - Update the [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/Introduction%20to%20UNIX%20shell.pptx?d=waa8b334f650548598f1cf27dc80f2923&csf=1&web=1&e=RbBBDG&nav=eyJzSWQiOjI1NywiY0lkIjozNjkxODA1NTA0fQ)
     - Names of trainers/helpers
     - Modify schedule (if needed)
-    - Add collaborative document **edu.nl** QR code link 
+    - Add collaborative document **edu.nl** QR code PNG 
         - On workshop day, also write this link on whiteboard 
 
 - Pick an icebreaker from the [resources document](https://tud365.sharepoint.com/:w:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/resources.docx?d=waea671d7fc6a46d5b5c068fc19f41940&csf=1&web=1&e=f2QYgy)
