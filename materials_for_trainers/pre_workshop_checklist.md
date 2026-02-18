@@ -9,6 +9,7 @@
 - Set up collaborative document:
     - Ask @catactg for a duplicate of the document from the previous workshop
         - Word document in OneDrive that is shared to everyone in TUDelft
+        - [This doc](https://tud365.sharepoint.com/:w:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/collaborative_documents_links.docx?d=we39fc1d5691343b185c0c5f8104a9269&csf=1&web=1&e=thh4BO) holds links to previous collaborative documents 
     - Adapt the links:
         - Vevox
         - Feedback survey
