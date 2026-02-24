@@ -54,8 +54,9 @@ ls -a # list all files, including hidden files
 cd ~
 ```
 
-### Challenges `filedir` - 10'
+### 💪 Challenges `filedir` - 10'
 - go to [TuDelft Vevox](https://tudelft.vevox.com/#/meetings)
+- vevox 1 and 2
 - start poll -> wait for answers -> discuss -> next question
 
 ## Break - 10'
@@ -94,9 +95,10 @@ ls thesis_backup/
 rm -r thesis_backup/ # Remove contents and folder
 ```
 
-### Challenges `create` - 10'
+### 💪 Challenges `create` - 10'
 
 - continue with the same vevox
+- vevox 3 and 4
 - start poll -> wait for answers -> discuss -> next question
 
 ## Using wildcards (*,?) to access multiple files
@@ -115,9 +117,10 @@ ls *.pdf # No such file or directory
 clear
 ```
 
-### Challenges `wildcards` - 15'
+### 💪 Challenges `wildcards` - 15'
 
 - continue with the same vevox
+- vevox 5 and 6
 - start poll -> wait for answers -> discuss -> next question
 
 ## Key points - 15'
