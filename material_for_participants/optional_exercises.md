@@ -1,6 +1,6 @@
 # Optional Exercises
 
-These are additional excercises for you to play with 🙂
+These are additional exercises for you to play with 🙂
 
 
 ## 1: Renaming Files
