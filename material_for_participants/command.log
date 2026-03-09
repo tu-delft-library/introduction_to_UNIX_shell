@@ -94,3 +94,4 @@ ls
 ls *.pdb
 ls p*.pdb
 ls ?ethane.pdb
+ls ???ane.pdb
