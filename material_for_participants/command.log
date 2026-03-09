@@ -56,3 +56,4 @@ ls
 cat my_file.txt 
 mv draft.txt quotes.txt
 ls
+cat quotes.txt 
