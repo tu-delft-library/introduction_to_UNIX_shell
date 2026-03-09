@@ -42,3 +42,4 @@ ls
 cd writing/
 ls -F
 mkdir thesis
+ls
