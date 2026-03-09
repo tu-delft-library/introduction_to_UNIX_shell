@@ -69,3 +69,4 @@ ls
 cat quotations.txt 
 ls
 rm quotations.txt 
+ls
