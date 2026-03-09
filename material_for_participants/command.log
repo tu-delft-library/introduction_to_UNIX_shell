@@ -20,3 +20,5 @@ ls
 ls -help
 ls --help
 man ls
+help ls
+clear
