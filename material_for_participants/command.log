@@ -67,3 +67,4 @@ pwd
 cp thesis/quotes.txt ./quotations.txt
 ls
 cat quotations.txt 
+ls
