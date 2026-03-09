@@ -71,3 +71,4 @@ ls
 rm quotations.txt 
 ls
 ls thesis/
+cp -r thesis/ thesis_backup
