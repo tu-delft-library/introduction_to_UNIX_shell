@@ -78,3 +78,4 @@ ls thesis
 rm -r thesis_backup/
 ls
 cp -r thesis/ thesis_backup
+ls
