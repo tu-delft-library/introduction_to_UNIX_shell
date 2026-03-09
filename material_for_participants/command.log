@@ -121,3 +121,4 @@ mkdir data
 cd data
 mkdir raw processed
 ls
+ls -F
