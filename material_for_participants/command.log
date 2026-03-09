@@ -17,3 +17,5 @@ cd
 clear
 cd Desktop
 ls
+ls -help
+ls --help
