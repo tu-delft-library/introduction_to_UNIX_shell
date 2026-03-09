@@ -119,3 +119,5 @@ mkdir 2016-05-20
 cd 2016-05-20
 mkdir data
 cd data
+mkdir raw processed
+ls
