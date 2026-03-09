@@ -122,3 +122,6 @@ cd data
 mkdir raw processed
 ls
 ls -F
+cd ../..
+pwd
+ls -R
