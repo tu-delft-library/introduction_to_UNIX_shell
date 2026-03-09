@@ -127,3 +127,4 @@ pwd
 ls -R
 pwd
 rm -r 2016-05-20/
+mkdir 2016-05-20/data/raw
