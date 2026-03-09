@@ -113,3 +113,4 @@ mkdir 2016-05-20
 mkdir 2016-05-20/data
 mkdir 2016-05-20/data/processed
 mkdir 2016-05-20/data/raw
+ls -R
