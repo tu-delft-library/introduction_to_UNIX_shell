@@ -19,3 +19,4 @@ cd Desktop
 ls
 ls -help
 ls --help
+man ls
