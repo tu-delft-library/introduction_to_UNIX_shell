@@ -68,3 +68,4 @@ cp thesis/quotes.txt ./quotations.txt
 ls
 cat quotations.txt 
 ls
+rm quotations.txt 
