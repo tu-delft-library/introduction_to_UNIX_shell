@@ -64,3 +64,4 @@ ls ../..
 cd ..
 ls
 pwd
+cp thesis/quotes.txt ./quotations.txt
