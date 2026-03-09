@@ -35,3 +35,4 @@ ls workshop_notes
 clear
 pwd
 ls
+cd shell-lesson-data/
