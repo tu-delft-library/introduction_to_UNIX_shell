@@ -47,3 +47,4 @@ ls -F
 cd thesis
 ls
 clear
+nano draft.txt
