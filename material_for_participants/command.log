@@ -60,3 +60,4 @@ cat quotes.txt
 ls
 ls .
 ls ..
+ls ../..
