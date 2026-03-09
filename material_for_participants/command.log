@@ -23,3 +23,4 @@ man ls
 help ls
 clear
 ls
+ls -l
