@@ -125,3 +125,5 @@ ls -F
 cd ../..
 pwd
 ls -R
+pwd
+rm -r 2016-05-20/
