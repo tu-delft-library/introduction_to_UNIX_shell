@@ -102,3 +102,4 @@ ls
 ls *t*ane.pdb
 ls *t?ne.*
 ls
+ls *t??ne.pdb
