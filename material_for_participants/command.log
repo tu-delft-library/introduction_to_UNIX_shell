@@ -100,3 +100,4 @@ clear
 pwd
 ls
 ls *t*ane.pdb
+ls *t?ne.*
