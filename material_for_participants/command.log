@@ -50,3 +50,4 @@ clear
 nano draft.txt
 nano draft.txt
 ls
+cat draft.txt 
