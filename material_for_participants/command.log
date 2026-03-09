@@ -27,3 +27,4 @@ ls -l
 ls -l -h
 clear
 ls -F
+ls --color
