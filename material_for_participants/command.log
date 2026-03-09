@@ -110,3 +110,4 @@ mkdir data
 mv data exercise
 cd exercise/
 mkdir 2016-05-20
+mkdir 2016-05-20/data
