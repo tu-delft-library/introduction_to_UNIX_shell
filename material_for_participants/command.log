@@ -51,3 +51,5 @@ nano draft.txt
 nano draft.txt
 ls
 cat draft.txt 
+touch my_file.txt
+ls
