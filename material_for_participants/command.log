@@ -87,3 +87,5 @@ cd ~/Desktop/shell-lesson-data/exercise-data/writing/
 ls
 clear
 pwd
+cd ..
+ls
