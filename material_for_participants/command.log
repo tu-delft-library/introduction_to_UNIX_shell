@@ -63,3 +63,4 @@ ls ..
 ls ../..
 cd ..
 ls
+pwd
