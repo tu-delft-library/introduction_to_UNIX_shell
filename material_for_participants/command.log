@@ -41,3 +41,4 @@ cd exercise-data/
 ls
 cd writing/
 ls -F
+mkdir thesis
