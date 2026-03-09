@@ -144,3 +144,5 @@ cd ..
 ls
 ls creatures/
 mkdir backup
+cp creatures/minotaur.dat creatures/unicorn.dat backup/
+ls
