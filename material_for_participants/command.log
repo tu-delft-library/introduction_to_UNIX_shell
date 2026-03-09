@@ -142,3 +142,4 @@ rm -r 2016-05-20/
 pwd
 cd ..
 ls
+ls creatures/
