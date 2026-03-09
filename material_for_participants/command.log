@@ -92,3 +92,4 @@ ls
 cd alkanes
 ls
 ls *.pdb
+ls p*.pdb
