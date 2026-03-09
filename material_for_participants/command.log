@@ -54,3 +54,5 @@ cat draft.txt
 touch my_file.txt
 ls
 cat my_file.txt 
+mv draft.txt quotes.txt
+ls
