@@ -80,3 +80,4 @@ ls
 cp -r thesis/ thesis_backup
 ls
 rm thesis_backup
+cp thesis second_backup
