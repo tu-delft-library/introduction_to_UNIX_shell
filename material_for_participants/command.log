@@ -99,3 +99,4 @@ ls *.pdf
 clear
 pwd
 ls
+ls *t*ane.pdb
