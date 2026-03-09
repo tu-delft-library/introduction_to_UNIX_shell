@@ -106,3 +106,6 @@ ls *t??ne.pdb
 cd ..
 pwd
 mkdir
+mkdir data
+mv data exercise
+cd exercise/
