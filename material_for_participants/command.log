@@ -25,3 +25,4 @@ clear
 ls
 ls -l
 ls -l -h
+clear
