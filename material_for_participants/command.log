@@ -70,3 +70,4 @@ cat quotations.txt
 ls
 rm quotations.txt 
 ls
+ls thesis/
