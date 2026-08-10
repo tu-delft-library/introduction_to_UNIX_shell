@@ -1,0 +1,151 @@
+exit
+ls
+pwd
+clear
+uptime
+exit
+ls
+clear
+w
+exit
+clear
+clear
+ls
+clear
+pwd
+cd
+clear
+cd Desktop
+ls
+ls -help
+ls --help
+man ls
+help ls
+clear
+ls
+ls -l
+ls -l -h
+clear
+ls -F
+ls --color
+ls
+clear
+ls
+ls workshop_notes
+clear
+pwd
+ls
+cd shell-lesson-data/
+ls
+cd exercise-data/
+ls
+cd writing/
+ls -F
+mkdir thesis
+ls
+ls -F
+cd thesis
+ls
+clear
+nano draft.txt
+nano draft.txt
+ls
+cat draft.txt 
+touch my_file.txt
+ls
+cat my_file.txt 
+mv draft.txt quotes.txt
+ls
+cat quotes.txt 
+ls
+ls .
+ls ..
+ls ../..
+cd ..
+ls
+pwd
+cp thesis/quotes.txt ./quotations.txt
+ls
+cat quotations.txt 
+ls
+rm quotations.txt 
+ls
+ls thesis/
+cp -r thesis/ thesis_backup
+ls
+ls thesis_backup/
+ls thesis
+rm -r thesis_backup/
+ls
+cp -r thesis/ thesis_backup
+ls
+rm thesis_backup
+cp thesis second_backup
+cd ~
+pwd
+cd ~/Desktop/shell-lesson-data/exercise-data/writing/
+ls
+clear
+pwd
+cd ..
+ls
+cd alkanes
+ls
+ls *.pdb
+ls p*.pdb
+ls ?ethane.pdb
+ls ???ane.pdb
+ls *.pdf
+clear
+pwd
+ls
+ls *t*ane.pdb
+ls *t?ne.*
+ls
+ls *t??ne.pdb
+cd ..
+pwd
+mkdir
+mkdir data
+mv data exercise
+cd exercise/
+mkdir 2016-05-20
+mkdir 2016-05-20/data
+mkdir 2016-05-20/data/processed
+mkdir 2016-05-20/data/raw
+ls -R
+rm -r 2016-05-20/
+mkdir 2016-05-20
+cd 2016-05-20
+mkdir data
+cd data
+mkdir raw processed
+ls
+ls -F
+cd ../..
+pwd
+ls -R
+pwd
+rm -r 2016-05-20/
+mkdir 2016-05-20/data/raw
+mkdir -p 2016-05-20/data/raw
+mkdir -p 2016-05-20/data/processed
+ls -R
+rm -r 2016-05-20/
+mkdir 2016-05-20
+cd 2016-05-20/
+mkdir data
+mkdir raw processed
+ls -R
+cd ..
+rm -r 2016-05-20/
+pwd
+cd ..
+ls
+ls creatures/
+mkdir backup
+cp creatures/minotaur.dat creatures/unicorn.dat backup/
+ls
+ls backup/
+ls creatures/
+exit
