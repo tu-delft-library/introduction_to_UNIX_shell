@@ -2,6 +2,8 @@
 
 This repository holds the material for the 🐚 **Introduction to UNIX Shell** 🐚 course at TUDelft.
 
+This course is based on software carpentry for [The Unix Shell](https://swcarpentry.github.io/shell-novice/).
+
 ## What is this course about?
 
 Discover the power of the UNIX shell in this beginner-friendly, hands-on workshop. You’ll learn how to interact with the command line to manage files and navigate your system efficiently. The course focuses on building practical skills that simplify everyday tasks and lay the foundation for advanced tools like version control and scripting.
