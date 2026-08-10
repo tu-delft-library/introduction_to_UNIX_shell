@@ -2,6 +2,8 @@
 
 This repository holds the material for the 🐚 **Introduction to UNIX Shell** 🐚 course at TUDelft.
 
+This course is based on software carpentry for [The Unix Shell](https://swcarpentry.github.io/shell-novice/).
+
 ## What is this course about?
 
 Discover the power of the UNIX shell in this beginner-friendly, hands-on workshop. You’ll learn how to interact with the command line to manage files and navigate your system efficiently. The course focuses on building practical skills that simplify everyday tasks and lay the foundation for advanced tools like version control and scripting.
@@ -24,3 +26,10 @@ This course is a requirement for other courses:
 
 We encourage you to try the [self assessment quiz.](https://tu-delft-library.github.io/introduction_to_UNIX_shell/)
 
+## ⬇️ Download lesson materials
+
+- Make sure to save the directories directly to your local machine—not to OneDrive. 
+
+- Download [shell-lesson-data.zip](material_for_participants/shell-lesson-data.zip), move to Desktop, and unzip. 
+
+- You should end up with a new folder called shell-lesson-data on your Desktop. 
