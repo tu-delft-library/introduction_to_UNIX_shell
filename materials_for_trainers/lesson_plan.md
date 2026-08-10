@@ -48,12 +48,21 @@ pwd # (Print working directory)
 ls –help  # (Ask for help about the 'ls' command) (Windows / Git-bash)
 ls --help # another option depending on your terminal
 man ls  # Show the UNIX manual page for the 'ls' command (Mac / Linux)
+        # To get out use 'q' for quit
+help ls # another way to see the help page
 clear # Clears the terminal screen
-ls -l -h  # Long-form listing of the files in the current directory
+ls      # list files
+ls -l    # Long-form listing of the files in the current directory
+ls -l -h  # long form with units: byte, kilobyte, etc
 ls -F # for MAC 
+ls --color # output color escape sequences
+ls -a # list all files, including hidden files
 ls -F . # . means the current directory
 ls -F Desktop
 ls -F Desktop/shell-lesson-data
+```
+Now let's move around directories
+```bash
 cd Desktop # Change directory to the one called "Desktop"
 cd shell-lesson-data
 cd exercise-data
@@ -61,11 +70,8 @@ pwd
 cd shell-lesson-data # Error: no such directory
 cd .. # .. means the directory above the current one
 pwd
-ls -a # list all files, including hidden files
-cd ~
+cd ~    # navigate to home directory
 ```
->*OPTIONAL*: explain permissions using `ls -color`
--rw-rw----@
 
 
 ## 💪 Challenges `filedir` - 10'
@@ -73,6 +79,28 @@ cd ~
 - go to [TuDelft Vevox](https://tudelft.vevox.com/#/meetings)
 - vevox 1 and 2
 - start poll -> wait for answers -> discuss -> next question
+
+#### solution 1
+```bash
+cd .                # No: . stands for the current directory.
+cd /                # No: / stands for the root directory.
+cd /home/nelle      # No: Nelle’s home directory is /Users/nelle.
+cd ../..            # No: this command goes up two levels, i.e. ends in /Users.
+cd ~                # Yes: ~ stands for the user’s home directory, in this case /Users/nelle.
+cd home             # No: this command would navigate into a directory home in the current directory if it exists.
+cd ~/data/..        # Yes: unnecessarily complicated, but correct.
+cd                  # Yes: shortcut to go back to the user’s home directory.
+cd ..               # Yes: goes up one level.
+```
+
+#### solution 2
+
+```bash
+../backup: No such file or directory        # No: there is a directory backup in /Users.
+2012-12-01 2013-01-08 2013-01-27            # No: this is the content of Users/thing/backup, but with .., we asked for one level further up.
+2012-12-01/ 2013-01-08/ 2013-01-27/         # No: see previous explanation.
+original/ pnas_final/ pnas_sub/     #Yes: ../backup/ refers to /Users/backup/.
+```
 
 ## Break - 10' 
 
@@ -94,20 +122,17 @@ ls
 cat my_file.txt # Show the contents of a file
 rm my_file.txt
 ls
-mv thesis/draft.txt thesis/quotes.txt # Move / rename a file
-ls thesis/
-mv thesis/quotes.txt .
+mv draft.txt quotes.txt # Move / rename a file
 ls
-ls thesis/
-cp quotes.txt thesis/quotations.txt # Copy file to a different location / name
-ls thesis/
+cat quotes.txt
+cd ..
+cp thesis/quotes.txt ./quotations.txt # Copy file to a different location / name
 ls
-cat thesis/quotations.txt
+cat quotations.txt
 cp -r thesis/ thesis_backup # Copy recursively – will copy folder structures
 ls thesis_backup/
-rm -r thesis_backup/ # Remove contents and folder
+rm -r thesis_backup/ # !!!! CAREFUL!!! Remove contents and folder
 ```
-
 
 ### INTERMEZZO! Escape!
 
@@ -127,6 +152,22 @@ If find yourself in this situation, **you can escape with`Ctrl+C`**.
 - vevox 3 and 4
 - start poll -> wait for answers -> discuss -> next question
 
+####solution 3
+```bash
+$ mv sucrose.dat maltose.dat ../raw
+```
+>Recall that `..` refers to the parent directory (i.e. one above the current directory) and that `.` refers to the current directory.
+
+####solution 4
+
+>We start in the `/Users/jamie/data directory,` and create a new folder called `recombined`. The second line moves (`mv`) the file `proteins.dat` to the new folder (`recombined`). The third line makes a copy of the file we just moved. The tricky part here is where the file was copied to `.` Recall that `..` means ‘go up a level’, so the copied file is now in `/Users/jamie`. Notice that `..` is interpreted with respect to the current working directory, not with respect to the location of the file being copied. So, the only thing that will show using ls (in `/Users/jamie/data`) is the recombined folder.
+
+```bash
+proteins-saved.dat recombined   # proteins-saved.dat is at /Users/jamie
+recombined                      # yes
+proteins.dat recombined         # proteins.dat is at /Users/jamie/data/recombined
+proteins-saved.dat              #  proteins-saved.dat is located at /Users/jamie
+```
 
 ## XX:XX - Using wildcards (*,?) to access multiple files - 10'
 ```bash
@@ -147,6 +188,27 @@ clear
 - continue with the same vevox
 - vevox 5 and 6
 - start poll -> wait for answers -> discuss -> next question
+
+#### solution 5
+
+`ls *t*ane.pdb` shows all files whose names contain zero or more characters (`*`) followed by the letter `t`, then zero or more characters (`*`) followed by `ane.pdb`. This gives `ethane.pdb methane.pdb octane.pdb pentane.pdb`
+
+`ls *t?ne.*` shows all files whose names start with zero or more characters (`*`) followed by the letter `t`, then a single character (`?`), then `ne.` followed by zero or more characters (`*`). This will give us `octane.pdb` and `pentane.pdb` but doesn’t match anything which ends in `thane.pdb`
+
+`ls *t??ne.pdb` fixes the problems of option 2 by matching two characters (`??`) between `t` and `ne`. This is the solution.
+
+`ls ethane.*` only shows files starting with `ethane.`
+
+
+
+#### solution 6
+The first two sets of commands achieve this objective. The first set uses relative paths to create the top-level directory before the subdirectories.
+
+The third set of commands will give an error because the default behavior of mkdir won’t create a subdirectory of a non-existent directory: the intermediate level folders must be created first.
+
+The fourth set of commands achieve this objective. Remember, the -p option, followed by a path of one or more directories, will cause mkdir to create any intermediate subdirectories as required.
+
+The final set of commands generates the ‘raw’ and ‘processed’ directories at the same level as the ‘data’ directory.
 
 
 ## XX:XX - Using forwarding commands - 10'
@@ -170,8 +232,13 @@ cat lengths.txt             # see content of lengths.txt
 - vevox 7
 - start poll -> wait for answers -> discuss -> next question
 
+#### solution 7
+In the first example with `>`, the string ‘hello’ is written to `testfile01.txt`, but the file gets overwritten each time we run the command.
+
+We see from the second example that the `>>` operator also writes ‘hello’ to a file (in this case `testfile02.txt`), but appends the string to the file if it already exists (i.e. when we run it for the second time).
+
 ## Key points - 15'
-* use the cheat sheet to make sure you revise all the commands
+use the cheat sheet to make sure you revise all the commands
 > *TIP!* recommended to review asking participants to shout out the command :)
 
 ## XX:XX - Give feedback about the course - 5' 
