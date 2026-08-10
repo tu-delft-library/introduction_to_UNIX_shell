@@ -22,6 +22,7 @@
         - On workshop day, also write this link on whiteboard 
 
 - Pick an icebreaker from the [resources document](https://tud365.sharepoint.com/:w:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/resources.docx?d=waea671d7fc6a46d5b5c068fc19f41940&csf=1&web=1&e=f2QYgy)
+- Get the lesson materials at [TODO]link
 - Practice teaching the material on your own
     - [shell-novice/01-intro](https://swcarpentry.github.io/shell-novice/01-intro.html)
     - [shell-novice/02-filedir](https://swcarpentry.github.io/shell-novice/02-filedir.html)
@@ -31,3 +32,6 @@
 - Prepare a separate device to have during the lesson.
     - Use it to visualize `materials_for_trainers/lesson_plan.md` file (in this repo).
 
+
+# Tips for the day
+- Make sure to plug your computer to electricity. Otherwise the display will feed electricity to the laptop and potentially turn itself off.
