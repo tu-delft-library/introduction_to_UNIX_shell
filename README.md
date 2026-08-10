@@ -24,3 +24,10 @@ This course is a requirement for other courses:
 
 We encourage you to try the [self assessment quiz.](https://tu-delft-library.github.io/introduction_to_UNIX_shell/)
 
+## ⬇️ Download lesson materials
+
+- Make sure to save the directories directly to your local machine—not to OneDrive. 
+
+- Download [shell-lesson-data.zip](material_for_participants/shell-lesson-data.zip), move to Desktop, and unzip. 
+
+- You should end up with a new folder called shell-lesson-data on your Desktop. 
