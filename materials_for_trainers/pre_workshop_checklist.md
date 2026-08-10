@@ -3,17 +3,16 @@
     - Ask @catactg for a duplicate of the vevox material
     - Copy the share link of vevox
     - Make it a short URL using [edu.nl](edu.nl)
-    - Save link on collaborative document
+    - Save link on `material_for_participants/README.md`
+
 - Set up the feedback survey
-    - TODO more specific instructions on this step
-- Set up collaborative document:
-    - Ask @catactg for a duplicate of the document from the previous workshop
-        - Word document in OneDrive that is shared to everyone in TUDelft
-        - [This doc](https://tud365.sharepoint.com/:w:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/collaborative_documents_links.docx?d=we39fc1d5691343b185c0c5f8104a9269&csf=1&web=1&e=thh4BO) holds links to previous collaborative documents 
+    - This is normally done by teaching assistant and the link to the survey is shared with lead trainer
+    - Add the link to the survey to the `material_for_participants/README.md`
     - Adapt the links:
         - Vevox
         - Feedback survey
-    - Make an **edu.nl** link from the collaborative document
+    - Make an **edu.nl** link to point to the `material_for_participants` folder inside this repository
+        - Make sure the link points to the branch specific to course run
 
 - Update the [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/Introduction%20to%20UNIX%20shell.pptx?d=waa8b334f650548598f1cf27dc80f2923&csf=1&web=1&e=RbBBDG&nav=eyJzSWQiOjI1NywiY0lkIjozNjkxODA1NTA0fQ)
     - Names of trainers/helpers
@@ -22,7 +21,7 @@
         - On workshop day, also write this link on whiteboard 
 
 - Pick an icebreaker from the [resources document](https://tud365.sharepoint.com/:w:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/resources.docx?d=waea671d7fc6a46d5b5c068fc19f41940&csf=1&web=1&e=f2QYgy)
-- Get the lesson materials at [TODO]link
+- Get the lesson materials at [shell-lesson-data.zip](material_for_participants/shell-lesson-data.zip)
 - Practice teaching the material on your own
     - [shell-novice/01-intro](https://swcarpentry.github.io/shell-novice/01-intro.html)
     - [shell-novice/02-filedir](https://swcarpentry.github.io/shell-novice/02-filedir.html)
