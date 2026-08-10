@@ -40,9 +40,9 @@ A short icebreaker from [resources document](https://tud365.sharepoint.com/:w:/r
 - Users with Windows 10 will probably save the data in `OneDrive` Desktop.  
     - First make a symbolic link to make our lives easier.
     - `ln -s "/C:/Users/[username]/OneDrive - Delft University of Technology/Desktop" "~/Desktop"`
-    - Explain how **how spaces need special handling**
+    - Explain **how spaces need special handling**
 
-## 10:20 - Navigating Files and Directories - 20'
+## 10:20 - Navigating Files and Directories - 15'
 ```bash
 pwd # (Print working directory)
 ls –help  # (Ask for help about the 'ls' command) (Windows / Git-bash)
@@ -74,7 +74,7 @@ cd ~    # navigate to home directory
 ```
 
 
-## 💪 Challenges `filedir` - 10'
+## 10:35 - 💪 Challenges `filedir` - 10'
 >*IMPORTANT* make sure the participants open the Vevox in their laptop and type the commands in their terminal
 - go to [TuDelft Vevox](https://tudelft.vevox.com/#/meetings)
 - vevox 1 and 2
@@ -102,9 +102,9 @@ cd ..               # Yes: goes up one level.
 original/ pnas_final/ pnas_sub/     #Yes: ../backup/ refers to /Users/backup/.
 ```
 
-## Break - 10' 
+## 10:45 - Break - 10' 
 
-## Working with Files and Directories - 15'
+## 10:55 - Working with Files and Directories - 15'
 - Talk about **good names for files and directories**
 - Explain: create files with `touch`
 
@@ -134,7 +134,7 @@ ls thesis_backup/
 rm -r thesis_backup/ # !!!! CAREFUL!!! Remove contents and folder
 ```
 
-### INTERMEZZO! Escape!
+## 11:10 - INTERMEZZO! Escape! - 5'
 
 When we give an incomplete command to the terminal, for example we don't provide the file name to the `cat` command:
 
@@ -146,19 +146,19 @@ Since it doesn’t have any filenames, `cat` assumes it is supposed to process i
 If find yourself in this situation, **you can escape with`Ctrl+C`**.
 
 
-## 💪 Challenges `create` - 10'
+## 11:15 - 💪 Challenges `create` - 10'
 
 - continue with the same vevox
 - vevox 3 and 4
 - start poll -> wait for answers -> discuss -> next question
 
-####solution 3
+#### solution 3
 ```bash
 $ mv sucrose.dat maltose.dat ../raw
 ```
 >Recall that `..` refers to the parent directory (i.e. one above the current directory) and that `.` refers to the current directory.
 
-####solution 4
+#### solution 4
 
 >We start in the `/Users/jamie/data directory,` and create a new folder called `recombined`. The second line moves (`mv`) the file `proteins.dat` to the new folder (`recombined`). The third line makes a copy of the file we just moved. The tricky part here is where the file was copied to `.` Recall that `..` means ‘go up a level’, so the copied file is now in `/Users/jamie`. Notice that `..` is interpreted with respect to the current working directory, not with respect to the location of the file being copied. So, the only thing that will show using ls (in `/Users/jamie/data`) is the recombined folder.
 
@@ -169,7 +169,7 @@ proteins.dat recombined         # proteins.dat is at /Users/jamie/data/recombine
 proteins-saved.dat              #  proteins-saved.dat is located at /Users/jamie
 ```
 
-## XX:XX - Using wildcards (*,?) to access multiple files - 10'
+## 11:25 - Using wildcards (*,?) to access multiple files - 10'
 ```bash
 clear
 cd ..
@@ -183,7 +183,7 @@ ls *.pdf # No such file or directory
 clear
 ```
 
-## 💪 Challenges `wildcards` - 15'
+## 11:35 - 💪 Challenges `wildcards` - 10'
 
 - continue with the same vevox
 - vevox 5 and 6
@@ -210,8 +210,9 @@ The fourth set of commands achieve this objective. Remember, the -p option, foll
 
 The final set of commands generates the ‘raw’ and ‘processed’ directories at the same level as the ‘data’ directory.
 
+## 11:45 - Break - 10' 
 
-## XX:XX - Using forwarding commands - 10'
+## 11:55 - Using forwarding commands - 10'
 
 ```bash
 cd shell-lesson-data/exercise-data/alkanes # step into directory with .pdb files
@@ -226,7 +227,7 @@ cat lengths.txt             # see content of lengths.txt
 
 > IMPORTANT! Note that `>` will either create a new file or silently overwrite an existing file. Be careful
 
-## 💪 Challenges `What Does >> Mean?` - 10'
+## 12:05 - 💪 Challenges `What Does >> Mean?` - 10'
 
 - continue with the same vevox
 - vevox 7
@@ -237,9 +238,9 @@ In the first example with `>`, the string ‘hello’ is written to `testfile01.
 
 We see from the second example that the `>>` operator also writes ‘hello’ to a file (in this case `testfile02.txt`), but appends the string to the file if it already exists (i.e. when we run it for the second time).
 
-## Key points - 15'
+## 12:15 - Key points - 10'
 use the cheat sheet to make sure you revise all the commands
 > *TIP!* recommended to review asking participants to shout out the command :)
 
-## XX:XX - Give feedback about the course - 5' 
+## 12:25 - Give feedback about the course - 5' 
 Go to the link in `README.md`
