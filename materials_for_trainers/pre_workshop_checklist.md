@@ -32,6 +32,3 @@
 - Prepare a separate device to have during the lesson.
     - Use it to visualize `materials_for_trainers/lesson_plan.md` file (in this repo).
 
-
-# Tips for the day
-- Make sure to plug your computer to electricity. Otherwise the display will feed electricity to the laptop and potentially turn itself off.

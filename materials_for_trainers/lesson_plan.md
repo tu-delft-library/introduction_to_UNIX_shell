@@ -1,3 +1,13 @@
+
+## Tips for the day
+- Make sure to plug your computer to electricity. Otherwise the display will feed electricity to the laptop and potentially turn itself off.
+- Use dark marker on the board (not red)
+- If you are using a mac, make the terminal not transparent: 
+    - Open the terminal
+    - Open settings
+    - Go to background color
+    - Adjust opacity to 100%
+
 ## Land - 10'
 ☕ Coffee/tea 🫖
 
