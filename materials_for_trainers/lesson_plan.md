@@ -146,7 +146,7 @@ Since it doesn’t have any filenames, `cat` assumes it is supposed to process i
 If find yourself in this situation, **you can escape with`Ctrl+C`**.
 
 
-## 11:15 - 💪 Challenges `create` - 10'
+## 11:15 - 💪 Challenges `create` - 15'
 
 - continue with the same vevox
 - vevox 3, 4, 5
@@ -194,7 +194,7 @@ ls *.pdf # No such file or directory
 clear
 ```
 
-## 11:35 - 💪 Challenges `wildcards` - 10'
+## 11:35 - 💪 Challenges `wildcards` - 5'
 
 - continue with the same vevox
 - vevox 6
