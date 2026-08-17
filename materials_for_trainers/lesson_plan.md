@@ -194,10 +194,10 @@ ls *.pdf # No such file or directory
 clear
 ```
 
-## 11:35 - 💪 Challenges `wildcards` - 5'
+## 11:35 - 💪 Challenges `wildcards` - 10'
 
 - continue with the same vevox
-- vevox 6
+- vevox 6 - 7
 - start poll -> wait for answers -> discuss -> next question
 
 #### solution 6
@@ -210,7 +210,15 @@ clear
 
 `ls ethane.*` only shows files starting with `ethane.`
 
+#### solution 7
 
+`ls NE*.txt` This command will show all the files starting in NE, followed by any number of charaters (*) and ending in .txt Not quite what we are looking for
+
+`ls NENE01*.tx`t` This command will show all the files starting with NENE01* and ending in .txt Not quite what we are looking for. Remember: Including the extension is always a good choice!
+
+`ls NENE01*` This command will show all the files starting with NENE01* including any extension. Not quite what we are looking for
+
+`ls NE*A.txt` will show all the files starting with NE* followed by any number of characters (*) followed by the letter A and ending in .txt This gives the list we are looking for! Remember: Including the extension is always a good choice!
 
 ## 11:45 - Break - 10' 
 
