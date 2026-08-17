@@ -194,7 +194,7 @@ ls *.pdf # No such file or directory
 clear
 ```
 
-## 11:35 - 💪 Challenges `wildcards` - 10'
+## 11:35 - 💪 Challenges `wildcards` - 5'
 
 - continue with the same vevox
 - vevox 6 - 7
