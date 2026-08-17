@@ -149,7 +149,7 @@ If find yourself in this situation, **you can escape with`Ctrl+C`**.
 ## 11:15 - 💪 Challenges `create` - 10'
 
 - continue with the same vevox
-- vevox 3 and 4
+- vevox 3, 4, 5
 - start poll -> wait for answers -> discuss -> next question
 
 #### solution 3
@@ -169,6 +169,17 @@ proteins.dat recombined         # proteins.dat is at /Users/jamie/data/recombine
 proteins-saved.dat              #  proteins-saved.dat is located at /Users/jamie
 ```
 
+
+#### solution 5
+The first two sets of commands achieve this objective. The first set uses relative paths to create the top-level directory before the subdirectories.
+
+The third set of commands will give an error because the default behavior of mkdir won’t create a subdirectory of a non-existent directory: the intermediate level folders must be created first.
+
+The fourth set of commands achieve this objective. Remember, the -p option, followed by a path of one or more directories, will cause mkdir to create any intermediate subdirectories as required.
+
+The final set of commands generates the ‘raw’ and ‘processed’ directories at the same level as the ‘data’ directory.
+
+
 ## 11:25 - Using wildcards (*,?) to access multiple files - 10'
 ```bash
 clear
@@ -186,10 +197,10 @@ clear
 ## 11:35 - 💪 Challenges `wildcards` - 10'
 
 - continue with the same vevox
-- vevox 5 and 6
+- vevox 6
 - start poll -> wait for answers -> discuss -> next question
 
-#### solution 5
+#### solution 6
 
 `ls *t*ane.pdb` shows all files whose names contain zero or more characters (`*`) followed by the letter `t`, then zero or more characters (`*`) followed by `ane.pdb`. This gives `ethane.pdb methane.pdb octane.pdb pentane.pdb`
 
@@ -200,15 +211,6 @@ clear
 `ls ethane.*` only shows files starting with `ethane.`
 
 
-
-#### solution 6
-The first two sets of commands achieve this objective. The first set uses relative paths to create the top-level directory before the subdirectories.
-
-The third set of commands will give an error because the default behavior of mkdir won’t create a subdirectory of a non-existent directory: the intermediate level folders must be created first.
-
-The fourth set of commands achieve this objective. Remember, the -p option, followed by a path of one or more directories, will cause mkdir to create any intermediate subdirectories as required.
-
-The final set of commands generates the ‘raw’ and ‘processed’ directories at the same level as the ‘data’ directory.
 
 ## 11:45 - Break - 10' 
 
