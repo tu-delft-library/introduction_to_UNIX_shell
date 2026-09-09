@@ -5,7 +5,7 @@
 - You should end up with a new folder called `shell-lesson-data` on your `Desktop` 
 
 # Live coding history
-You can find the history as we follow during the workshop in the [command.log](material_for_participants/command.log)
+You can find the history as we follow during the workshop in the [command.log](command.log)
 
 # Vevox
 We will use vevox during this course. Open vevox.app and enter the session number *UPDATE_PER_RUN*
