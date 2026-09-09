@@ -5,9 +5,40 @@ title: Introduction to the Unix Shell
 
 # Introduction to the Unix Shell
 
-Choose the page you need:
+This repository holds the material for the 🐚 **Introduction to UNIX Shell** 🐚 course at TUDelft.
 
-- [Readiness quiz](readiness-quiz.md)
-- [Download lesson materials](download-lesson-materials.md)
+This course is based on software carpentry for [The Unix Shell](https://swcarpentry.github.io/shell-novice/).
 
-The lesson materials archive is stored in this repository under the folder `material_for_participants`.
+## Download lesson materials
+
+You need to download some files to follow this course. 
+
+1. Download [shell-lesson-data.zip](material_for_participants/shell-lesson-data.zip) and move the file to your `Desktop`
+1. Unzip/extract the file. You should end up with a new folder called `shell-lesson-data` on your `Desktop`
+
+
+## Is this course for me?
+
+Join this course if:
+
+You want to start using Unix/Linux systems or explore tools to automate data analysis workflows
+You have stored files on a computer and recognize the word “file” and either “directory” or “folder”
+You are PhD candidate, researcher, or support staff at TU Delft.
+
+## Can I skip this course?
+We encourage you to try the self assessment quiz.
+
+- If the test felt too hard, we recommend taking the [Introduction to UNIX Shell](https://brightspace.tudelft.nl/d2l/home/905393) course at TU Delft
+- Alternatively, you can self-study episodes 1, 2, and 3 of the [Unix Shell Software Carpentry course](https://swcarpentry.github.io/shell-novice)
+
+---
+
+<div class="iframe-wrapper">
+  <iframe
+    src="https://tudelft.h5p.com/content/1292801904541945047/embed"
+    allowfullscreen
+    loading="lazy">
+  </iframe>
+</div>
+
+---
