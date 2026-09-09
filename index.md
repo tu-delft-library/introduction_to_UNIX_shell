@@ -17,13 +17,6 @@ You need to download some files to follow this course.
 1. Unzip/extract the file. You should end up with a new folder called `shell-lesson-data` on your `Desktop`
 
 
-## Is this course for me?
-
-Join this course if:
-
-You want to start using Unix/Linux systems or explore tools to automate data analysis workflows
-You have stored files on a computer and recognize the word “file” and either “directory” or “folder”
-You are PhD candidate, researcher, or support staff at TU Delft.
 
 ## Can I skip this course?
 We encourage you to try the self assessment quiz.
