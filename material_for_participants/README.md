@@ -1,7 +1,7 @@
 # ⬇️ Download lesson materials
 
 - Make sure to save the directories directly to your local machine—not to OneDrive. 
-- Download [shell-lesson-data.zip](shell-lesson-data.zip?raw=true), move to Desktop, and unzip. 
+- Download [shell-lesson-data.zip](https://github.com/tu-delft-library/introduction_to_UNIX_shell/blob/main/material_for_participants/shell-lesson-data.zip?raw=true), move to Desktop, and unzip. 
 - You should end up with a new folder called `shell-lesson-data` on your `Desktop` 
 
 # Live coding history
